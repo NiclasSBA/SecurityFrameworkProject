@@ -12,8 +12,6 @@ namespace SecurityFrameworkProject.Migrations
             AutomaticMigrationsEnabled = false;
         }
 
-
-        //Seed method is not needed in production
         protected override void Seed(SecurityFrameworkProject.Models.SecurityFrameworkProjectContext context)
         {
             //  This method will be called after migrating to the latest version.

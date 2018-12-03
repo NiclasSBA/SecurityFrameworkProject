@@ -193,17 +193,129 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201812011310088_Init.cs" />
-    <Compile Include="Migrations\201812011310088_Init.Designer.cs">
-      <DependentUpon>201812011310088_Init.cs</DependentUpon>
+    <Compile Include="Migrations\201812011443181_init.cs" />
+    <Compile Include="Migrations\201812011443181_init.Designer.cs">
+      <DependentUpon>201812011443181_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812011447382_init2.cs" />
+    <Compile Include="Migrations\201812011447382_init2.Designer.cs">
+      <DependentUpon>201812011447382_init2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812011612372_AddedPrimaryKeys.cs" />
+    <Compile Include="Migrations\201812011612372_AddedPrimaryKeys.Designer.cs">
+      <DependentUpon>201812011612372_AddedPrimaryKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812011620369_AddedPrimaryKeys2.cs" />
+    <Compile Include="Migrations\201812011620369_AddedPrimaryKeys2.Designer.cs">
+      <DependentUpon>201812011620369_AddedPrimaryKeys2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812011643106_AddedPrimaryKeys3.cs" />
+    <Compile Include="Migrations\201812011643106_AddedPrimaryKeys3.Designer.cs">
+      <DependentUpon>201812011643106_AddedPrimaryKeys3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812011659469_AddedPrimaryKeys4.cs" />
+    <Compile Include="Migrations\201812011659469_AddedPrimaryKeys4.Designer.cs">
+      <DependentUpon>201812011659469_AddedPrimaryKeys4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021116069_AddedRelatedMatPersonnel.cs" />
+    <Compile Include="Migrations\201812021116069_AddedRelatedMatPersonnel.Designer.cs">
+      <DependentUpon>201812021116069_AddedRelatedMatPersonnel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021118023_AddedRelatedMatPersonnel2.cs" />
+    <Compile Include="Migrations\201812021118023_AddedRelatedMatPersonnel2.Designer.cs">
+      <DependentUpon>201812021118023_AddedRelatedMatPersonnel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021120566_AddedMatLevelActivities.cs" />
+    <Compile Include="Migrations\201812021120566_AddedMatLevelActivities.Designer.cs">
+      <DependentUpon>201812021120566_AddedMatLevelActivities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021137206_AddedMoreRelatedToMatLevel.cs" />
+    <Compile Include="Migrations\201812021137206_AddedMoreRelatedToMatLevel.Designer.cs">
+      <DependentUpon>201812021137206_AddedMoreRelatedToMatLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021143080_AddedRelatedGdprArticlesToSecPrac.cs" />
+    <Compile Include="Migrations\201812021143080_AddedRelatedGdprArticlesToSecPrac.Designer.cs">
+      <DependentUpon>201812021143080_AddedRelatedGdprArticlesToSecPrac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021146094_AddedRelatedGdprArticlesToSecPrac2.cs" />
+    <Compile Include="Migrations\201812021146094_AddedRelatedGdprArticlesToSecPrac2.Designer.cs">
+      <DependentUpon>201812021146094_AddedRelatedGdprArticlesToSecPrac2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021332091_AddedRelatedGdprArticlesToSecPrac5.cs" />
+    <Compile Include="Migrations\201812021332091_AddedRelatedGdprArticlesToSecPrac5.Designer.cs">
+      <DependentUpon>201812021332091_AddedRelatedGdprArticlesToSecPrac5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021334298_AddedRelatedGdprArticlesToSecPrac6.cs" />
+    <Compile Include="Migrations\201812021334298_AddedRelatedGdprArticlesToSecPrac6.Designer.cs">
+      <DependentUpon>201812021334298_AddedRelatedGdprArticlesToSecPrac6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021345358_AddedRelatedGdprArticlesToSecPrac7.cs" />
+    <Compile Include="Migrations\201812021345358_AddedRelatedGdprArticlesToSecPrac7.Designer.cs">
+      <DependentUpon>201812021345358_AddedRelatedGdprArticlesToSecPrac7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021353094_AddedRelatedGdprArticlesToSecPrac8.cs" />
+    <Compile Include="Migrations\201812021353094_AddedRelatedGdprArticlesToSecPrac8.Designer.cs">
+      <DependentUpon>201812021353094_AddedRelatedGdprArticlesToSecPrac8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021354297_AddedRelatedGdprArticlesToSecPrac9.cs" />
+    <Compile Include="Migrations\201812021354297_AddedRelatedGdprArticlesToSecPrac9.Designer.cs">
+      <DependentUpon>201812021354297_AddedRelatedGdprArticlesToSecPrac9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021359056_AddedRelatedGdprArticlesToSecPrac10.cs" />
+    <Compile Include="Migrations\201812021359056_AddedRelatedGdprArticlesToSecPrac10.Designer.cs">
+      <DependentUpon>201812021359056_AddedRelatedGdprArticlesToSecPrac10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021402262_AddedRelatedGdprArticlesToSecPrac11.cs" />
+    <Compile Include="Migrations\201812021402262_AddedRelatedGdprArticlesToSecPrac11.Designer.cs">
+      <DependentUpon>201812021402262_AddedRelatedGdprArticlesToSecPrac11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021406064_AddedRelatedGdprArticlesToSecPrac13.cs" />
+    <Compile Include="Migrations\201812021406064_AddedRelatedGdprArticlesToSecPrac13.Designer.cs">
+      <DependentUpon>201812021406064_AddedRelatedGdprArticlesToSecPrac13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812021408410_AddedRelatedGdprArticlesToSecPrac14.cs" />
+    <Compile Include="Migrations\201812021408410_AddedRelatedGdprArticlesToSecPrac14.Designer.cs">
+      <DependentUpon>201812021408410_AddedRelatedGdprArticlesToSecPrac14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812031603333_CleaningNormalization.cs" />
+    <Compile Include="Migrations\201812031603333_CleaningNormalization.Designer.cs">
+      <DependentUpon>201812031603333_CleaningNormalization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812031617313_CleaningAndAddedMatLevelStuff.cs" />
+    <Compile Include="Migrations\201812031617313_CleaningAndAddedMatLevelStuff.Designer.cs">
+      <DependentUpon>201812031617313_CleaningAndAddedMatLevelStuff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812031744390_CleaningAndRElations.cs" />
+    <Compile Include="Migrations\201812031744390_CleaningAndRElations.Designer.cs">
+      <DependentUpon>201812031744390_CleaningAndRElations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812031750356_ChangedDbsets.cs" />
+    <Compile Include="Migrations\201812031750356_ChangedDbsets.Designer.cs">
+      <DependentUpon>201812031750356_ChangedDbsets.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\GdprArticleItem.cs" />
+    <Compile Include="Models\GdprSuitableRecital.cs" />
+    <Compile Include="Models\MaturityLevelActivity.cs" />
     <Compile Include="Models\BusinessFunction.cs" />
+    <Compile Include="Models\GdprArticle.cs" />
     <Compile Include="Models\MaturityLevel.cs" />
-    <Compile Include="Models\Phase.cs" />
+    <Compile Include="Models\MaturityLevelCost.cs" />
+    <Compile Include="Models\MaturityLevelGoal.cs" />
+    <Compile Include="Models\MaturityLevelPersonnel.cs" />
+    <Compile Include="Models\MaturityLevelQuestion.cs" />
+    <Compile Include="Models\MaturityLevelSuccessMetric.cs" />
+    <Compile Include="Models\Personnel.cs" />
+    <Compile Include="Models\PersonnelUser.cs" />
+    <Compile Include="Models\PhaseUser.cs" />
+    <Compile Include="Models\ProjectPhase.cs" />
     <Compile Include="Models\Project.cs" />
+    <Compile Include="Models\ProjectManager.cs" />
+    <Compile Include="Models\RelatedMatLevel.cs" />
+    <Compile Include="Models\ScoreCard.cs" />
     <Compile Include="Models\SecurityFrameworkProjectContext.cs" />
     <Compile Include="Models\SecurityPractice.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -293,8 +405,80 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812011310088_Init.resx">
-      <DependentUpon>201812011310088_Init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201812011443181_init.resx">
+      <DependentUpon>201812011443181_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812011447382_init2.resx">
+      <DependentUpon>201812011447382_init2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812011612372_AddedPrimaryKeys.resx">
+      <DependentUpon>201812011612372_AddedPrimaryKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812011620369_AddedPrimaryKeys2.resx">
+      <DependentUpon>201812011620369_AddedPrimaryKeys2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812011643106_AddedPrimaryKeys3.resx">
+      <DependentUpon>201812011643106_AddedPrimaryKeys3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812011659469_AddedPrimaryKeys4.resx">
+      <DependentUpon>201812011659469_AddedPrimaryKeys4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021116069_AddedRelatedMatPersonnel.resx">
+      <DependentUpon>201812021116069_AddedRelatedMatPersonnel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021118023_AddedRelatedMatPersonnel2.resx">
+      <DependentUpon>201812021118023_AddedRelatedMatPersonnel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021120566_AddedMatLevelActivities.resx">
+      <DependentUpon>201812021120566_AddedMatLevelActivities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021137206_AddedMoreRelatedToMatLevel.resx">
+      <DependentUpon>201812021137206_AddedMoreRelatedToMatLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021143080_AddedRelatedGdprArticlesToSecPrac.resx">
+      <DependentUpon>201812021143080_AddedRelatedGdprArticlesToSecPrac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021146094_AddedRelatedGdprArticlesToSecPrac2.resx">
+      <DependentUpon>201812021146094_AddedRelatedGdprArticlesToSecPrac2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021332091_AddedRelatedGdprArticlesToSecPrac5.resx">
+      <DependentUpon>201812021332091_AddedRelatedGdprArticlesToSecPrac5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021334298_AddedRelatedGdprArticlesToSecPrac6.resx">
+      <DependentUpon>201812021334298_AddedRelatedGdprArticlesToSecPrac6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021345358_AddedRelatedGdprArticlesToSecPrac7.resx">
+      <DependentUpon>201812021345358_AddedRelatedGdprArticlesToSecPrac7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021353094_AddedRelatedGdprArticlesToSecPrac8.resx">
+      <DependentUpon>201812021353094_AddedRelatedGdprArticlesToSecPrac8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021354297_AddedRelatedGdprArticlesToSecPrac9.resx">
+      <DependentUpon>201812021354297_AddedRelatedGdprArticlesToSecPrac9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021359056_AddedRelatedGdprArticlesToSecPrac10.resx">
+      <DependentUpon>201812021359056_AddedRelatedGdprArticlesToSecPrac10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021402262_AddedRelatedGdprArticlesToSecPrac11.resx">
+      <DependentUpon>201812021402262_AddedRelatedGdprArticlesToSecPrac11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021406064_AddedRelatedGdprArticlesToSecPrac13.resx">
+      <DependentUpon>201812021406064_AddedRelatedGdprArticlesToSecPrac13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812021408410_AddedRelatedGdprArticlesToSecPrac14.resx">
+      <DependentUpon>201812021408410_AddedRelatedGdprArticlesToSecPrac14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812031603333_CleaningNormalization.resx">
+      <DependentUpon>201812031603333_CleaningNormalization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812031617313_CleaningAndAddedMatLevelStuff.resx">
+      <DependentUpon>201812031617313_CleaningAndAddedMatLevelStuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812031744390_CleaningAndRElations.resx">
+      <DependentUpon>201812031744390_CleaningAndRElations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812031750356_ChangedDbsets.resx">
+      <DependentUpon>201812031750356_ChangedDbsets.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
